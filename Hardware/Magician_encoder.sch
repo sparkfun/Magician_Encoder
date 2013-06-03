@@ -6118,6 +6118,7 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;</description>
 <part name="C6" library="SparkFun-Capacitors" deviceset="1.0UF-16V-10%(0603)" device="" value="1.0uF"/>
 <part name="Q1" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="MMBT2222A" value="MMBT2222A"/>
 <part name="Q2" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="MMBT2222A" value="MMBT2222A"/>
+<part name="LOGO1" library="SparkFun-Aesthetics" deviceset="LOGO-SFE" device="SK"/>
 </parts>
 <sheets>
 <sheet>
@@ -6169,6 +6170,7 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;</description>
 <instance part="C6" gate="G$1" x="99.06" y="60.96" rot="R180"/>
 <instance part="Q1" gate="G$1" x="83.82" y="129.54"/>
 <instance part="Q2" gate="G$1" x="185.42" y="132.08"/>
+<instance part="LOGO1" gate="G$1" x="241.3" y="17.78"/>
 </instances>
 <busses>
 </busses>
@@ -6198,13 +6200,17 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;</description>
 <wire x1="147.32" y1="162.56" x2="147.32" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="147.32" y1="157.48" x2="147.32" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="157.48" x2="175.26" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="157.48" x2="154.94" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="157.48" x2="175.26" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="157.48" x2="175.26" y2="154.94" width="0.1524" layer="91"/>
 <junction x="147.32" y="157.48"/>
 <pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="175.26" y1="157.48" x2="187.96" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="157.48" x2="187.96" y2="154.94" width="0.1524" layer="91"/>
 <junction x="175.26" y="157.48"/>
+<pinref part="U2" gate="G$1" pin="C"/>
+<wire x1="154.94" y1="142.24" x2="154.94" y2="157.48" width="0.1524" layer="91"/>
+<junction x="154.94" y="157.48"/>
 </segment>
 <segment>
 <pinref part="SUPPLY1" gate="G$1" pin="5V"/>
