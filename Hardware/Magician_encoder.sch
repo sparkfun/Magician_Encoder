@@ -6084,20 +6084,32 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;</description>
 <part name="LOGO4" library="SparkFun-Aesthetics" deviceset="LOGO-SFE" device="NEW" value="LOGO-SFENEW"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="1.0UF-16V-10%(0603)" device="" value="1.0uF"/>
 <part name="R3" library="SparkFun-Resistors" deviceset="47KOHM1/10W1%(0603)" device="" value="47K"/>
-<part name="R4" library="SparkFun-Resistors" deviceset="10KOHM1/10W1%(0603)" device="0603" value="10K"/>
-<part name="R5" library="SparkFun-Resistors" deviceset="10KOHM1/10W1%(0603)" device="0603" value="10K"/>
-<part name="R12" library="SparkFun-Resistors" deviceset="1KOHM1/10W1%(0603)" device="" value="1K"/>
+<part name="R4" library="SparkFun-Resistors" deviceset="10KOHM1/10W1%(0603)" device="0603" value="6.8K">
+<attribute name="PROD_ID" value="RES-08597"/>
+</part>
+<part name="R5" library="SparkFun-Resistors" deviceset="10KOHM1/10W1%(0603)" device="0603" value="4.7K">
+<attribute name="PROD_ID" value="RES-07857"/>
+</part>
+<part name="R12" library="SparkFun-Resistors" deviceset="1KOHM1/10W1%(0603)" device="" value="100">
+<attribute name="PROD_ID" value="RES-07863"/>
+</part>
 <part name="C5" library="SparkFun-Capacitors" deviceset="1.0UF-16V-10%(0603)" device="" value="1.0uF"/>
 <part name="R9" library="SparkFun-Resistors" deviceset="47KOHM1/10W1%(0603)" device="" value="47K"/>
-<part name="R10" library="SparkFun-Resistors" deviceset="10KOHM1/10W1%(0603)" device="0603" value="10K"/>
-<part name="R11" library="SparkFun-Resistors" deviceset="10KOHM1/10W1%(0603)" device="0603" value="10K"/>
+<part name="R10" library="SparkFun-Resistors" deviceset="10KOHM1/10W1%(0603)" device="0603" value="6.8K">
+<attribute name="PROD_ID" value="RES-08597"/>
+</part>
+<part name="R11" library="SparkFun-Resistors" deviceset="10KOHM1/10W1%(0603)" device="0603" value="4.7K">
+<attribute name="PROD_ID" value="RES-07857"/>
+</part>
 <part name="C3" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="C7" library="SparkFun-Capacitors" deviceset="1.0UF-16V-10%(0603)" device="" value="1.0uF"/>
 <part name="Q1" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="MMBT2222A" value="MMBT2222A"/>
 <part name="Q2" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="MMBT2222A" value="MMBT2222A"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="LOGO-SFE" device="SK"/>
-<part name="R6" library="SparkFun-Resistors" deviceset="1KOHM1/10W1%(0603)" device="" value="1K"/>
+<part name="R6" library="SparkFun-Resistors" deviceset="1KOHM1/10W1%(0603)" device="" value="100">
+<attribute name="PROD_ID" value="RES-07863"/>
+</part>
 <part name="R2" library="SparkFun-Resistors" deviceset="10KOHM1/10W1%(0603)" device="0603" value="10K"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
